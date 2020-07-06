@@ -1,4 +1,26 @@
 {
+    "name" : "lyseontech/doctotext",
+    "description" : "Create SDK client from API Blueprint",
+    "license" : "MIT",
+    "type" : "library",
+    "homepage" : "https://github.com/lyseontech/doctotext",
+    "authors" : [{
+            "name" : "Vitor Mattos",
+            "homepage" : "https://github.com/vitormattos"
+        }
+    ],
+    "support" : {
+        "source" : "https://github.com/lyseontech/doctotext/tree/master",
+        "issues" : "https://github.com/lyseontech/doctotext/issues"
+    },
+    "keywords" : [
+        "php",
+        "php7",
+        "libreoffice",
+        "libreoffice-writer",
+        "wordcount",
+        "wordcounter"
+    ],
     "autoload": {
         "psr-4": {
             "DocToText\\": "src"
