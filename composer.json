@@ -1,6 +1,6 @@
 {
     "name" : "lyseontech/doctotext",
-    "description" : "Create SDK client from API Blueprint",
+    "description" : "Convert doc to text, wrapper to libreoffice",
     "license" : "MIT",
     "type" : "library",
     "homepage" : "https://github.com/lyseontech/doctotext",
