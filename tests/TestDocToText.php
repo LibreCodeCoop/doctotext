@@ -19,4 +19,14 @@ final class TestDocToText extends TestCase
         
         $this->assertEquals($expected, $docToText->getText());
     }
+
+    public function testWordCount()
+    {
+        $path = __DIR__ . '/fixtures/document.doc' ;
+        $output =  __DIR__ . '/fixtures';
+
+        $docToText = new DocToText($path, $output);
+
+        $this->assertEquals(15, $docToText->wordCount());
+    }
 }
