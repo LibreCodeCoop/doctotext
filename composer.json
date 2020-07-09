@@ -25,5 +25,13 @@
         "psr-4": {
             "DocToText\\": "src"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
     }
 }
