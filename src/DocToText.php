@@ -17,9 +17,9 @@ class DocToText
     {
         $info = pathinfo($this->docFile);
         exec('libreoffice --headless --convert-to "txt:Text (encoded):UTF8" --outdir ' . $this->outputDir . ' ' . $this->docFile);
-        $this->text = file_get_contents($this->outputDir . '/' . $info['filename'].'.txt');
-        unlink($this->outputDir . '/' . $info['filename'].'.txt');
-        return $this->text;  
+        $this->text = file_get_contents($this->outputDir . DIRECTORY_SEPARATOR . $info['filename'].'.txt');
+        unlink($this->outputDir . DIRECTORY_SEPARATOR . $info['filename'].'.txt');
+        return $this->text;
     }
 
     public function wordCount()
