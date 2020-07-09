@@ -17,8 +17,8 @@ class DocToText
     {
         $info = pathinfo($this->docFile);
         exec('libreoffice --headless --convert-to "txt:Text (encoded):UTF8" --outdir ' . $this->outputDir . ' ' . $this->docFile);
-        $this->text = file_get_contents('/tmp/'.$info['filename'].'.txt');
-        unlink('/tmp/'.$info['filename'].'.txt');
+        $this->text = file_get_contents($this->outputDir . DIRECTORY_SEPARATOR . $info['filename'].'.txt');
+        unlink($this->outputDir . DIRECTORY_SEPARATOR . $info['filename'].'.txt');
         return $this->text;
     }
 
