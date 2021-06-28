@@ -3,7 +3,7 @@
     "description" : "Convert doc to text, wrapper to libreoffice",
     "license" : "MIT",
     "type" : "library",
-    "homepage" : "https://github.com/lyseontech/doctotext",
+    "homepage" : "https://github.com/librecodecoop/doctotext",
     "authors" : [{
             "name" : "Vitor Mattos",
             "homepage" : "https://github.com/vitormattos"
