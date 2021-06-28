@@ -10,8 +10,8 @@
         }
     ],
     "support" : {
-        "source" : "https://github.com/lyseontech/doctotext/tree/master",
-        "issues" : "https://github.com/lyseontech/doctotext/issues"
+        "source" : "https://github.com/librecodecoop/doctotext/tree/master",
+        "issues" : "https://github.com/librecodecoop/doctotext/issues"
     },
     "keywords" : [
         "php",
