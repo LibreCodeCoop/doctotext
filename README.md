@@ -5,7 +5,7 @@
 ```bash
 sudo apt-get update
 sudo apt-get install libreoffice-writer
-composer require lyseontech/doctotext
+composer require librecodecoop/doctotext
 ```
 
 ## Use
