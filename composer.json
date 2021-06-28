@@ -1,5 +1,5 @@
 {
-    "name" : "lyseontech/doctotext",
+    "name" : "librecodecoop/doctotext",
     "description" : "Convert doc to text, wrapper to libreoffice",
     "license" : "MIT",
     "type" : "library",
